@@ -17,7 +17,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Dangnhap extends AppCompatActivity {
     EditText edtuser,edtpass;
-    Button btndangnhap,btndangki;
+    Button btndangnhap,btnthoat;
     private FirebaseAuth mAthu;
 
     @Override
@@ -43,11 +43,10 @@ public class Dangnhap extends AppCompatActivity {
                 }
             }
         });
-        btndangki.setOnClickListener(new View.OnClickListener() {
+        btnthoat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Dangnhap.this,Dangki.class);
-                startActivity(intent);
+               finish();
 
             }
         });
@@ -78,6 +77,6 @@ private void dangnhapht()
         edtuser= this.<EditText>findViewById(R.id.edtuser);
         edtpass= this.<EditText>findViewById(R.id.edtpass);
         btndangnhap= this.<Button>findViewById(R.id.btndangnhap);
-        btndangki= this.<Button>findViewById(R.id.btndangki);
+        btnthoat= this.<Button>findViewById(R.id.btnthoat);
     }
 }

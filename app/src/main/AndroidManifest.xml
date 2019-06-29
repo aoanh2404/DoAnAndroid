@@ -16,7 +16,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".Showkhkt"></activity>
-        <activity android:name=".Dangki"></activity>
         <activity android:name=".Addsachkhkt"></activity>
         <activity android:name=".Thongtinkhkt"></activity>
         <activity android:name=".Updatekhkt"></activity>
