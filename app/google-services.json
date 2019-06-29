@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "25850863516",
+    "firebase_url": "https://quanlythuvien-be8ca.firebaseio.com",
+    "project_id": "quanlythuvien-be8ca",
+    "storage_bucket": "quanlythuvien-be8ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25850863516:android:418e093e41aa91db",
+        "android_client_info": {
+          "package_name": "com.example.quanlythuvien"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25850863516-11t6sbf1ud5p6sppk9of2lhb1s8o8r6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2rvHwp6aHYFH3fbeSFXKGvJgy_ZPUpCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25850863516-11t6sbf1ud5p6sppk9of2lhb1s8o8r6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

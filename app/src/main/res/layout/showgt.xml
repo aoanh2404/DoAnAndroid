@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Showcntt">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        android:text="Giáo Trình"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="44dp"
+        android:background="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridView
+        android:id="@+id/grvsach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        android:horizontalSpacing="5dp"
+        android:numColumns="1"
+        android:paddingTop="5dp"
+        android:verticalSpacing="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnthem"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_add_circle_black_24dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/btnthoatkhkt"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="615dp"
+        android:background="@drawable/ic_keyboard_backspace_black_24dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

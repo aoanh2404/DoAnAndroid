@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quanlythuvien">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_book_black_24dp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_book_black_24dp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Dangnhap">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Showkhkt"></activity>
+        <activity android:name=".Dangki"></activity>
+        <activity android:name=".Addsachkhkt"></activity>
+        <activity android:name=".Thongtinkhkt"></activity>
+        <activity android:name=".Updatekhkt"></activity>
+        <activity android:name=".Chontheloai"></activity>
+        <activity android:name=".Showcntt"></activity>
+        <activity android:name=".addsachcntt"></activity>
+        <activity android:name=".Thongtincntt"></activity>
+        <activity android:name=".Updatecntt"></activity>
+        <activity android:name=".Shownttc"></activity>
+        <activity android:name=".Updatenttc"></activity>
+        <activity android:name=".Thongtinnttc"></activity>
+        <activity android:name=".addnttc"></activity>
+        <activity android:name=".Showgt"></activity>
+        <activity android:name=".addgt"></activity>
+        <activity android:name=".Thongtingt"></activity>
+        <activity android:name=".Updategt"></activity>
+        <activity android:name=".Showvhnt"></activity>
+        <activity android:name=".addvhnt"></activity>
+        <activity android:name=".Thongtinvhnt"></activity>
+        <activity android:name=".Updatevhnt"></activity>
+        <activity android:name=".Showttt"></activity>
+        <activity android:name=".addttt"></activity>
+        <activity android:name=".Thongtinttt"></activity>
+        <activity android:name=".Updatettt"></activity>
+    </application>
+
+</manifest>
